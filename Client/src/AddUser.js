@@ -15,7 +15,7 @@ const onSubmit= async(e)=>{
 
 return(<>
 
-<form className="container-lg col-6 align-items-left needs-validation" >
+<form className="container-lg col-6 align-items-left needs-validation text-white" >
             <h1 className="align-center">Add User Data</h1>
         <div className="mb-3">
     <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>

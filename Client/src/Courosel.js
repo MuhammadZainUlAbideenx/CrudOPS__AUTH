@@ -1,7 +1,7 @@
+import c_image from "./images/c_image.png";
 const Courosel =()=>{
-
     return(<>
-    <div id="carouselExampleIndicators" className="carousel slide">
+    <div id="carouselExampleIndicators" className="carousel slide ">
   <div className="carousel-indicators">
     <button
       type="button"
@@ -26,7 +26,7 @@ const Courosel =()=>{
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="..." className="d-block w-100" alt="..." />
+      <img src={c_image} className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
       <img src="..." className="d-block w-100" alt="..." />
