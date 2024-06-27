@@ -1,11 +1,19 @@
-export const addUser =(req,res,next)=>{
-
-
+import User from './userSchema.js';
+export const addUser = async (req,res,next)=>{
+    const {name, email , password}= req.body;
+    const user = req.body;
+    const newUser= new User (user);
     try {
-        const user = req.body;
-        console.log(user)
+        let existingUser;
+        existingUser = await User.findOne({email:email});
+       
+       res.status(201).json(newUser)
+        
         
     } catch (error) {
-        
+      console.log(error);
     }
+    if (existingUser){
+    return res.status().json({message:'User Already Exist'})
+}
 }
