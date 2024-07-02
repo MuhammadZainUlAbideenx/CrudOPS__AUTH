@@ -15,7 +15,7 @@ const onSubmit= async(e)=>{
 
 return(<>
 
-<form className="container-lg col-6 align-items-left needs-validation text-white" >
+<form className="container-lg col-6 align-items-left needs-validation text-white h-75  mt-5 border-rounded bg-secondary" style={{ minHeight:"60vh" , marginTop:"20px"}}>
             <h1 className="align-center">Add User Data</h1>
         <div className="mb-3">
     <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
@@ -36,7 +36,7 @@ return(<>
     <div className="valid-feedback">Valid.</div>
       <div className="invalid-feedback">Please fill out this field.</div>
   </div>
-<button onClick={onSubmit} type="submit" className="btn btn-primary">
+<button onClick={onSubmit} type="submit" className="btn btn-light">
   Submit
 </button>
 </form>

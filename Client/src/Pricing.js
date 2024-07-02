@@ -2,7 +2,7 @@ const Pricing =()=>{
     return(<>
     <>
  
-  <div className="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+  <div className="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle mb-5">
     
    
   </div>

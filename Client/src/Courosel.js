@@ -1,4 +1,5 @@
 import c_image from "./images/c_image.png";
+import c_image2 from "./images/c_image2.png";
 const Courosel =()=>{
     return(<>
     <div id="carouselExampleIndicators" className="carousel slide ">
@@ -29,10 +30,10 @@ const Courosel =()=>{
       <img src={c_image} className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..." />
+      <img src={c_image2} className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..." />
+      <img src={c_image} className="d-block w-100" alt="..." />
     </div>
   </div>
   <button

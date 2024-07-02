@@ -1,12 +1,14 @@
 import Courosel from "./Courosel";
-import Nav from "./Nav";
+import Pricing from "./Pricing";
+
 
 const Home =()=>{
 
     
     return(<>
-    <Nav/>
+
     <Courosel/>
+    <Pricing/>
     
     </>);
 }

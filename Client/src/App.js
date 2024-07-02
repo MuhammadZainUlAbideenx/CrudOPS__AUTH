@@ -1,16 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AddUser from './AddUser';
 import './App.css';
 import Footer from './Footer';
 import Home from './Home';
-import Pricing from './Pricing';
+import Nav from './Nav';
+
 
 function App() {
   return (
-    <div className="fluid bg-dark text-white">
-    <Home/>
-    <Pricing/>
-    <Footer/>
-    </div>
+    <BrowserRouter>
+    <Nav/>
+      <Routes>
+        <Route index element={<Home />} />
+          <Route path="adduser" element={<AddUser />} >
+          
+        </Route>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
