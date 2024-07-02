@@ -14,16 +14,16 @@ const Pricing =()=>{
           
       </div>
       <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 className="display-4 fw-normal text-body-white">Pricing</h1>
+        <h1 className="display-1 fw-normal text-bold text-white">Pricing</h1>
         
       </div>
     </header>
     <main>
       <div className="row row-cols-1 row-cols-md-3 mb-3 text-center text-body-light">
         <div className="col">
-          <div style={{backgroundColor: "#FF6F02"}} className="card mb-4 rounded-3 shadow-sm text-body-white">
-            <div className="card-header py-3">
-              <h4 className="my-0 fw-normal">Free</h4>
+          <div className="card mb-4 rounded-3 shadow-sm text-body-white">
+            <div className="card-header py-3" style={{backgroundColor: "#FF6F02"}}>
+              <h4 className="my-0 fw-normal text-white" >Free</h4>
             </div>
             <div className="card-body bg-color-#FF6F02">
               <h1 className="card-title pricing-card-title">
@@ -37,7 +37,7 @@ const Pricing =()=>{
               </ul>
               <button
                 type="button"
-                className="w-100 btn btn-lg btn-outline-light"
+                className="w-100 btn btn-lg btn-outline-dark"
               >
                 Sign up for free
               </button>
@@ -46,8 +46,8 @@ const Pricing =()=>{
         </div>
         <div className="col">
           <div className="card mb-4 rounded-3 shadow-sm">
-            <div className="card-header py-3">
-              <h4 className="my-0 fw-normal">Pro</h4>
+            <div className="card-header py-3" style={{backgroundColor: "#FF6F02"}}>
+              <h4 className="my-0 fw-normal text-white">Pro</h4>
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">
@@ -59,16 +59,16 @@ const Pricing =()=>{
                 <li>Priority email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" className="w-100 btn btn-lg btn-primary">
+              <button type="button" className="w-100 btn btn-lg btn-dark">
                 Get started
               </button>
             </div>
           </div>
         </div>
         <div className="col">
-          <div className="card mb-4 rounded-3 shadow-sm border-primary">
-            <div className="card-header py-3 text-bg-primary border-primary">
-              <h4 className="my-0 fw-normal">Enterprise</h4>
+          <div className="card mb-4 rounded-3 shadow-sm">
+            <div className="card-header py-3 border-primary" style={{backgroundColor: "#FF6F02"}}>
+              <h4 className="my-0 fw-normal text-white">Enterprise</h4>
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">
@@ -80,7 +80,7 @@ const Pricing =()=>{
                 <li>Phone and email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" className="w-100 btn btn-lg btn-primary">
+              <button type="button" className="w-100 btn btn-lg btn-dark">
                 Contact us
               </button>
             </div>

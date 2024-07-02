@@ -1,17 +1,22 @@
 import mongoose from "mongoose";
-//import autiIncrement from 'mongoose-id-autoincrement';
 
-const userSchema = new mongoose.Schema(
+const userSchema = new mongoose.Schema({
+  username: {
+    type: String,
+    // required: true,
+    unique: true,
+  },
+  email: {
+    type: String,
+    // required: true,
+    unique: true,
+  },
+  password: {
+    password: String,
+    // required: true,
+  },
+});
 
-
-    {
-        unique_id: Number,
-        name:String,
-        email:String,
-        password:String
-})
-
-//userSchema.plugin(autiIncrement.plugin,  {model: 'user', field: 'unique_id', unique: false});
-const user = mongoose.model('user' ,userSchema);
+const user = mongoose.model("User", userSchema);
 
 export default user;

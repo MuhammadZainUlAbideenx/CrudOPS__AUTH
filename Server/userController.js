@@ -11,6 +11,8 @@ export const addUser = async (req,res,next)=>{
        if (existingUser){
         return res.status().json({message:'User Already Exist'})
         
+    } else{
+      await User.save()
     }
   } 
     catch (error) {

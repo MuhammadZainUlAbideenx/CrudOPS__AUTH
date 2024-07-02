@@ -1,6 +1,6 @@
 const Footer =()=>{
 return(<>
-<div className="container mt-5" >
+<div className="container mt-5" style={{textDecorationColor:"white"}} >
   <footer className="py-5">
     <div className="row">
       <div className="col-6 col-md-2 mb-3">
