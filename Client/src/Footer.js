@@ -7,27 +7,27 @@ return(<>
         <h5>Section</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Home
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Features
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Pricing
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               FAQs
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               About
             </a>
           </li>
@@ -37,27 +37,27 @@ return(<>
         <h5>Section</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Home
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Features
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Pricing
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               FAQs
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               About
             </a>
           </li>
@@ -67,27 +67,27 @@ return(<>
         <h5>Section</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Home
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Features
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               Pricing
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               FAQs
             </a>
           </li>
           <li className="nav-item mb-2">
-            <a href="#" className="nav-link p-0 text-body-secondary">
+            <a href="#" className="nav-link p-0 ">
               About
             </a>
           </li>

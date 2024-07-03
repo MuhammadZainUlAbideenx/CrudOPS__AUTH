@@ -1,22 +1,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AddUser from './AddUser';
-import './App.css';
-import Footer from './Footer';
-import Home from './Home';
-import Nav from './Nav';
-
+import Signup from "./Signup";
+import "./App.css";
+import Footer from "./Footer";
+import Home from "./Home";
+import Nav from "./Nav";
+import Login from "./Login";
 
 function App() {
   return (
     <BrowserRouter>
-    <Nav/>
+      <Nav />
       <Routes>
-        <Route index element={<Home />} />
-          <Route path="adduser" element={<AddUser />} >
-          
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />}/>
+        <Route path="/login" element={<Login />} />
+      
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

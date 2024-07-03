@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { adduser } from "./Api";
-const AddUser = () => {
-  const defaultValue = { username: "", email: "", password: "" };
+import { login } from "./Api";
+
+const Login = () => {
+  const defaultValue = { email: "", password: "" };
   const [user, setUser] = useState(defaultValue);
   const onValueChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
@@ -9,29 +10,17 @@ const AddUser = () => {
   };
   const onSubmit = async (e) => {
     e.preventDefault();
-    await adduser(user);
+    await login(user);
   };
 
   return (
     <>
       <form
-        className="container-lg col-6 align-items-left needs-validation text-white h-75  mt-5 border-rounded bg-secondary"
+        className="container-lg col-6 align-items-left needs-validation text-white h-75  mt-5 border-rounded "
         style={{ minHeight: "60vh", marginTop: "20px" }}
       >
-        <h1 className="align-center">Add User Data</h1>
+        <h1 className="align-center">Login</h1>
         <div className="mb-3">
-          <label htmlFor="exampleFormControlInput1" className="form-label">
-            Name
-          </label>
-          <input
-            onChange={onValueChange}
-            type="name"
-            className="form-control form-control-lg has-validation"
-            name="username"
-            id="exampleFormControlInput1"
-            placeholder="name"
-            required
-          />
           <div className="invalid-feedback">Please choose a username.</div>
         </div>
         <div className="mb-3">
@@ -73,4 +62,4 @@ const AddUser = () => {
     </>
   );
 };
-export default AddUser;
+export default Login;
