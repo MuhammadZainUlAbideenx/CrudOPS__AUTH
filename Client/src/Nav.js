@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
       <nav
-        className="navbar navbar bg-dark navbar-expand-lg bg-body-tertiary d-flex justify-content-center"
+        className="justify-content-center navbar navbar bg-dark navbar-expand-lg bg-body-tertiary "
         data-bs-theme="dark"
       >
         <div className="container-fluid">
